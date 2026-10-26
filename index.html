@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HarkCode</title>
+<meta name="description" content="HarkCode - independent app development. Home of MusicMood.">
+<style>
+  :root {
+    --bg: #141416;
+    --surface: #1f1f27;
+    --text: #eeeeee;
+    --muted: #b9b9c4;
+    --accent: #6FB1FC;
+    --grad: linear-gradient(90deg, #E91E63, #9D4EDD, #6FB1FC);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text); min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6; display: flex; flex-direction: column;
+  }
+  main { flex: 1; width: 100%; max-width: 680px; margin: 0 auto; padding: 64px 16px 24px; }
+  h1 {
+    font-size: 2.6rem; letter-spacing: .01em;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text;
+    color: transparent; display: inline-block;
+  }
+  .tag { color: var(--muted); margin: 4px 0 36px; }
+  .app-card {
+    display: block; background: var(--surface); border-radius: 16px;
+    padding: 22px; text-decoration: none; color: var(--text);
+    border: 1px solid #2a2a35; transition: border-color .15s ease;
+  }
+  .app-card:hover { border-color: #44445a; }
+  .app-card img { width: 100%; height: auto; border-radius: 10px; }
+  .app-card h2 { font-size: 1.3rem; margin: 14px 0 4px; }
+  .app-card p { color: var(--muted); font-size: .95rem; }
+  .app-card .more { color: var(--accent); font-size: .95rem; margin-top: 10px; display: inline-block; }
+  footer {
+    text-align: center; color: var(--muted); font-size: .9rem;
+    padding: 26px 16px 38px; border-top: 1px solid #26262f; margin-top: 48px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>HarkCode</h1>
+  <p class="tag">Independent app development.</p>
+
+  <a class="app-card" href="/musicmood/">
+    <img src="/musicmood/img/feature.png" alt="MusicMood">
+    <h2>MusicMood</h2>
+    <p>Your music, decoded: moods, patterns, and how music fits into YOUR life. An app that truly knows you, without you having to teach it.</p>
+    <span class="more">Learn more &rarr;</span>
+  </a>
+</main>
+<footer>
+  support@harkcode.app
+</footer>
+</body>
+</html>
