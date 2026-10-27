@@ -4,7 +4,7 @@ title: Terms of Use — MusicMood
 
 # MusicMood Terms of Use
 
-Last updated: October 23, 2026 (version 2)
+Last updated: October 27, 2026 (version 2)
 
 These terms are written in plain language on purpose. Most of them read like a conversation; a few read like a contract, because they are one. By tapping "I agree" in the app, or by using MusicMood, you accept all of them.
 
@@ -34,7 +34,7 @@ Lyrics shown in the app are third-party content fetched from community sources f
 
 ## 7. Subscriptions and payments
 
-Some features may require a paid subscription. All purchases go through Google Play, and the developer never sees or stores your payment details. Subscriptions renew automatically until you cancel them in your Google Play subscription settings; cancellation takes effect at the end of the current billing period. Refunds follow Google Play's refund policy. Prices can change; you will get notice and a chance to cancel before a change applies to you.
+MusicMood is a subscription app: after the free trial, an active subscription is required to keep its features running. All purchases go through Google Play, and the developer never sees or stores your payment details. Subscriptions renew automatically until you cancel them in your Google Play subscription settings; cancellation takes effect at the end of the current billing period. Refunds follow Google Play's refund policy. Prices can change; you will get notice and a chance to cancel before a change applies to you. If you cancel, everything already created stays yours - your history, journal, and past analyses live on your phone; the app just stops producing new analyses and insights.
 
 ## 8. Third-party services
 
